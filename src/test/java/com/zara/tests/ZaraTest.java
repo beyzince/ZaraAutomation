@@ -41,8 +41,8 @@ public class ZaraTest extends BaseTest {
             try {
                 logger.info(" login  ");
                 loginPage.navigateToLogin();
-                String email = "beyzaa0204@gmail.com";
-                String password = "Beyza0600";
+                String email = ""; // Email buraya girilecek
+                String password = ""; // Şifre buraya girilecek
                 loginPage.login(email, password);
                 loginDone = true;
                 logger.info(" login başarıyla tamamlandı");
@@ -69,8 +69,8 @@ public class ZaraTest extends BaseTest {
         logger.info("Login işlemi başlatılıyor...");
         loginPage.navigateToLogin();
         
-        String email = "beyzaa0204@gmail.com";  
-        String password = "Beyza0600";        
+        String email = ""; // Email buraya girilecek
+        String password = ""; // Şifre buraya girilecek        
         
         loginPage.login(email, password);
         logger.info("Login işlemi tamamlandı");
